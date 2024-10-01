@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0ff4502a6f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="images/website logo.png" alt="" />
+        </div>
+        <ul id="menulist">
+          <li><a href="">about</a></li>
+          <li><a href="">pricing</a></li>
+          <li><a href="">contact</a></li>
+          <li><a href="">buy nfts</a></li>
+        </ul>
+        <div class="manu-icon">
+          <i class="fa-solid fa-bars" onclick="togglemMenu()"></i>
+        </div>
+      </nav>
+      <div class="hero-contianer">
+        <div class="text">
+          <h1>Unleash Digital Creativity</h1>
+          <p class="body-text">
+            Your gateway to the world of blockchain-<br />backed digital art and
+            collectibles.
+          </p>
+          <a class="btn1" href="">EXPOLRE</a>
+          <a class="btn2" href="">CREATE</a>
+        </div>
+        <div class="img">
+          <img src="images/dextop.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="company-logo">
+        <p>ANALYTICS</p>
+        <div class="logos">
+          <img class="img-1" src="images/logo1.png" alt="" />
+          <img class="img-2" src="images/logo2.png" alt="" />
+          <img class="img-3" src="images/logo3.png" alt="" />
+          <img class="img-4" src="images/logo4.png" alt="" />
+        </div>
+      </div>
+      <section>
+        <div class="smart-profile">
+          <div class="img">
+            <img src="images/bars.png" alt="" />
+          </div>
+          <div class="text">
+            <p>ANALYTICS</p>
+            <h1>Smart Portfopo Insights</h1>
+            <p class="body-text">
+              Harness the power of data to make informed decisions. Our
+              intuitive dashboard helps you track performance and spot trends in
+              real-time
+            </p>
+            <a href="" class="btn1">EXPLORE FEATURES</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="smart-profile">
+          <div class="text">
+            <p>ANALYTICS</p>
+            <h1>Seamless Trading Experience</h1>
+            <p class="body-text">
+              Our secure platform ensures smooth transactions and protects your
+              digital assets.
+            </p>
+            <a href="" class="btn1">VIEW MARKETPLACE</a>
+          </div>
+          <div class="img">
+            <img src="images/movile.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="testimonials">
+          <h3>TESTIMONIALS</h3>
+          <h1>Voices of Our Community</h1>
+          <div class="cards">
+            <div class="card">
+              <div class="card-man">
+                <img src="images/man1.png" alt="" />
+              </div>
+              <div class="text">
+                <h4 class="Shoba-hading">Sofia Rodriguez</h4>
+                <p class="Shoba-text">
+                  KCORO opened my eyes to the world of digital art. As a
+                  collector, I've found unique pieces that speak to me, and the
+                  analytics tools help me make informed decisions.
+                </p>
+              </div>
+            </div>
+            <div class="card card-2">
+              <div class="card-man">
+                <img src="images/man2.png" alt="" />
+              </div>
+              <div class="text">
+                <h4 class="Shoba-hading">Rahul Kapoor</h4>
+                <p class="Shoba-text">
+                  As an artist, KCORO has been a game-changer. The platform's
+                  user-friendly interface and robust security measures give me
+                  peace of mind when selpng my digital creations.
+                </p>
+              </div>
+            </div>
+            <div class="card card-3">
+              <div class="card-man">
+                <img src="images/man3.png" alt="" />
+              </div>
+              <div class="text">
+                <h4 class="Shoba-hading">Emma Thompson</h4>
+                <p class="Shoba-text">
+                  I was skeptical about digital collectibles at first, but KCORO
+                  made the entire process accessible and exciting. Their
+                  educational resources helped me understand the technology
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="feature">
+          <h4 class="Shoba-hading">are you ready?</h4>
+          <h1 class="feature-h1">Shape the Future of Digital Ownership</h1>
+          <a href="">GET STARTED</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="img">
+        <img src="images/footer-logo.png" alt="" />
+      </div>
+      <div class="div">
+        <h1>Kcoro</h1>
+        <p>Home</p>
+        <p>About</p>
+        <p>Buy NFTs</p>
+        <p>Sell NFTs</p>
+      </div>
+      <div class="div">
+        <h1>Market</h1>
+        <p>Browse NFTs</p>
+        <p>Buy NFTs</p>
+        <p>Sell NFTs</p>
+      </div>
+      <div class="div">
+        <h1>contact</h1>
+        <p>pnkedin</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+      </div>
+      <div class="input">
+        <h1>join our newsletter</h1>
+        <form action="">
+          <input type="text" placeholder="Enter your email" />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </footer>
+    <script>
+      let menulist = document.getElementById("menulist");
+      manulist.style.maxHight = "0px";
+      function togglemMenu() {
+        if (menulist.style.maxHeight == "0px") {
+          menulist.style.maxHeight = "300px";
+        } else {
+          menulist.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

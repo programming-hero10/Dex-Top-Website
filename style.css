@@ -1,0 +1,441 @@
+/* font import start */
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+/* font import end */
+/* share */
+.body-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 50px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.Shoba-hading {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  letter-spacing: 0.1em;
+}
+.Shoba-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+.card {
+  box-shadow: 5px 5px 40px #7b2af5;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.feature-h1 {
+  font-family: Outfit;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 57px;
+  text-align: center;
+}
+.card .text .Shoba-hading {
+  padding-top: 50px;
+}
+/* share */
+body {
+  background-image: linear-gradient(#2d0070, #2d0070) !important;
+  color: #fff;
+  font-family: "Uotfit", sans-serif;
+}
+header {
+  background-image: url("images/blue\ bg.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+nav {
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+nav .logo img {
+  width: 20%;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+nav ul li a {
+  border-bottom: 3px solid transparent;
+  transition: 0.5s ease;
+  color: #fff;
+  border-radius: transparent;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #b44cff;
+  border-bottom-right-radius: 10px;
+}
+.manu-icon {
+  display: none;
+}
+.manu-icon i {
+  color: #fff;
+  font-size: 30px;
+}
+.hero-contianer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  gap: 300px;
+  align-items: center;
+  background-image: url(images/green\ bg.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  height: 90vh;
+}
+.hero-contianer .img img {
+  width: 80%;
+}
+.hero-contianer .text h1 {
+  font-size: 87px;
+  font-weight: 700;
+  line-height: 87px;
+}
+.hero-contianer .text a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.btn1 {
+  font-family: "Roboto", sans-serif;
+  margin-right: 50px;
+  padding: 20px 50px;
+  background: #9f3ee7;
+  border-radius: 36px;
+  border: 1px solid #9f3ee7;
+  transition: 0.5s ease;
+}
+.btn1:hover {
+  background: transparent;
+}
+.btn2 {
+  border: 1px solid #9f3ee7;
+  padding: 20px 50px;
+  border-radius: 36px;
+  background: transparent;
+  transition: 0.5s ease;
+}
+.btn2:hover {
+  background: #9f3ee7;
+}
+.company-logo .logos {
+  background: #6358bd30;
+}
+.company-logo {
+  margin-left: 400px;
+  margin-right: 380px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.company-logo .logos {
+  display: flex;
+  align-items: center;
+  gap: 174px;
+  padding: 10px 50px;
+}
+.img-1 {
+  width: 167px;
+  height: 62px;
+  top: 905px;
+  left: 263px;
+  gap: 0px;
+  opacity: 0.6px;
+}
+.img-2 {
+  width: 149px;
+  height: 23px;
+  top: 925px;
+  left: 574px;
+  gap: 0px;
+  opacity: 0.6px;
+}
+.img-3 {
+  width: 60px;
+  height: 33px;
+  top: 920px;
+  left: 867px;
+  gap: 0px;
+  opacity: 0.6px;
+}
+.img-4 {
+  width: 101px;
+  height: 25px;
+  top: 924px;
+  left: 1071px;
+  gap: 0px;
+  opacity: 0.6px;
+}
+.smart-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 0 300px;
+}
+.smart-profile .img img {
+  width: 459px;
+}
+.smart-profile .text h1 {
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.smart-profile {
+  margin-bottom: 50px;
+}
+.smart-profile .text {
+  padding: 50px;
+}
+.cards {
+  display: flex;
+  padding: 0 200px;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.testimonials h1,
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.testimonials h1 {
+  font-family: Outfit;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 57px;
+}
+.testimonials h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  letter-spacing: 0.1em;
+}
+.cards .card {
+  width: 345px;
+  height: 329px;
+  top: 2364px;
+  left: 188px;
+  gap: 0px;
+  opacity: 0px;
+  text-align: center;
+  transition: 0.5s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card-2 .card-man img {
+  width: 35%;
+}
+.card-3 .card-man img {
+  width: 35%;
+}
+.card img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -72px;
+  margin-bottom: 300px;
+}
+.feature {
+  margin-top: 100px;
+  width: 900px;
+  height: 441px;
+  top: 2803px;
+  left: 188px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  background: linear-gradient(278.9deg, #b44cff -11.08%, #560d95 89.36%);
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
+.feature .Shoba-hading {
+  padding-top: 50px;
+}
+.feature a {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.5px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  background: #000;
+  padding: 20px 50px;
+  border-radius: 36px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+}
+.feature a:hover {
+  background: transparent;
+}
+footer {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+  position: relative;
+}
+.div {
+  text-align: start;
+}
+.input input {
+  border: none;
+  padding: 15px 50px;
+  font-size: 20px;
+  border-radius: 36px;
+  color: #fff;
+  background: #13134d;
+  position: absolute;
+  z-index: 0;
+}
+.input button {
+  background: #9f3ee7;
+  border: none;
+  padding: 20px 15px;
+  border-radius: 36px;
+  position: absolute;
+  color: #fff;
+  margin-left: 263px;
+  margin-top: -1px;
+}
+.input input:focus {
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-image: none;
+  }
+  nav {
+    background: #13134d;
+    width: auto;
+    padding-right: 90px;
+    margin: 0;
+  }
+  nav .logo img {
+    width: 20%;
+  }
+  nav ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    text-align: center;
+    background: #13134d;
+    padding-bottom: 0px;
+    overflow: hidden;
+  }
+  #menulist {
+    transition: 0.5s ease;
+  }
+  .manu-icon {
+    display: block;
+  }
+  .hero-contianer {
+    background-image: none;
+  }
+  .hero-contianer {
+    flex-direction: column;
+    gap: 100px;
+    height: auto;
+    padding: 20px;
+  }
+  .hero-contianer .text h1 {
+    font-size: 45px;
+  }
+  .btn1 {
+    padding: 15px 20px;
+  }
+  .btn2 {
+    padding: 15px 20px;
+  }
+  .company-logo {
+    margin-left: -520px;
+    padding: 50px;
+  }
+  .smart-profile {
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+  }
+  .smart-profile .img img {
+    width: 359px;
+  }
+  .smart-profile .text {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  .smart-profile .text h1 {
+    font-size: 45px;
+  }
+  .cards {
+    flex-direction: column;
+    padding: 0;
+  }
+  .testimonials h3 {
+    font-size: 18px;
+    margin-top: 90px;
+    margin-bottom: -90px;
+  }
+  .testimonials h1 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+  .company-logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .company-logo .logos {
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+    padding-top: 40px;
+  }
+  .feature {
+    margin-left: 0;
+    width: auto;
+    height: 441px;
+  }
+  .feature h1 {
+    font-size: 35px;
+  }
+  .cards .card {
+    width: 270px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 100px 0;
+    margin-left: 30px;
+    gap: 50px;
+  }
+}
